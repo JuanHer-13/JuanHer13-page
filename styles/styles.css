@@ -19,53 +19,43 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #container {
     background-color: var(--container-color);
     border-radius: 1rem;
-    margin: 15rem 60rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    margin-top: 14%;
 }
 
 #img {
     border-radius: 100%;
     width: 10rem;
     height: 10rem;
-    margin: 4rem;
+    margin: 1.5rem;
+    transition: size 1s ease;
 }
 
 #name {
-    margin-bottom: .3rem;
-    margin-top: .3rem;
-}
-
-#name:hover,
-#skills:hover, 
-#copyright:hover {
-    cursor: default;
+    margin: auto .6rem;
 }
 
 #skills {
-    margin-bottom: .5rem;
+    margin: 1rem;
+    display: grid;
 }
 
 #svg {
-    display: flex;
-    margin: 1rem 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     list-style: none;
-    padding-left: 0;
-}
-
-.logos {
-    margin: 1rem 2rem;
+    margin: 1rem;
+    padding: 0;
 }
 
 #copyright {
-    margin-bottom: .7rem;
-    margin-top: .1rem;
+    margin: .7rem 0;
 }
