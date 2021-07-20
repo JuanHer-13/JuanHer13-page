@@ -31,15 +31,17 @@ body {
     text-align: center;
     font-size: 2rem;
     position: absolute;
-    top: 40%;
+    top: 33%;
     margin-top: -10rem;
+    width: 35rem;
+    height: 45rem;
 }
 
 #img {
     border-radius: 100%;
     width: 14rem;
     height: 14rem;
-    margin: 1.5rem;
+    margin: 4.5rem auto auto auto;
 }
 
 #name {
@@ -52,12 +54,12 @@ body {
 }
 
 #svg {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
     list-style: none;
-    margin: 1rem;
     padding: 0;
-}
+    }
 
 #copyright {
     margin: .7rem 0;
