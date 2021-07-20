@@ -22,22 +22,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 #container {
     background-color: var(--container-color);
     border-radius: 1rem;
     text-align: center;
-    margin-top: 14%;
     font-size: 2rem;
+    position: absolute;
+    top: 40%;
+    margin-top: -10rem;
 }
 
 #img {
     border-radius: 100%;
-    width: 15rem;
-    height: 15rem;
+    width: 14rem;
+    height: 14rem;
     margin: 1.5rem;
-    transition: size 1s ease;
 }
 
 #name {
