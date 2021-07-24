@@ -19,10 +19,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center center;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
 #container {
@@ -33,15 +32,15 @@ body {
     position: absolute;
     top: 33%;
     margin-top: -10rem;
-    width: 33rem;
-    height: 45rem;
+    width: 32rem;
+    height: 44rem;
 }
 
 #img {
-    border-radius: 100%;
+    border-radius: 50%;
     width: 14rem;
     height: 14rem;
-    margin: 4.5rem auto auto auto;
+    margin: 3.5rem auto 1rem auto;
 }
 
 #name {
@@ -59,7 +58,7 @@ body {
     justify-content: center;
     list-style: none;
     padding: 0;
-    }
+}
 
 #copyright {
     margin: .7rem 0;
